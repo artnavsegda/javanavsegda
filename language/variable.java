@@ -13,6 +13,8 @@ public class hello {
 		char y;
 		y = 'x';
 		System.out.println(y);
+		var o = 24;
+		System.out.println(o);
 	}
 }
 
