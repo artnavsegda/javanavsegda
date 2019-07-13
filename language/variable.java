@@ -1,6 +1,9 @@
 public class hello {
 
 	public static void main(String[] args) {
+		boolean a;
+		a = true;
+		System.out.println(a);
 		int i;
 		i = 42;
 		System.out.println(i);
