@@ -18,6 +18,8 @@ public class hello {
 		System.out.println(y);
 		var o = 24;
 		System.out.println(o);
+		final int r = 103;// const
+		System.out.println(r);
 	}
 }
 
