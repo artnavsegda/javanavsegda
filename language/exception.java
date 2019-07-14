@@ -15,7 +15,7 @@ public class method {
 		}
 		catch (Exception e)
 		{
-			System.out.println("error");
+			System.out.println(e);
 		}
 	}
 	public static void main(String[] args)
