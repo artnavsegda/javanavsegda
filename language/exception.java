@@ -1,16 +1,27 @@
 public class method {
 	static void myfunc2(int number)
 	{
+		if (number == 34)
+		{
+			throw new ArithmeticException("Number is thirty four");
+		}
 		System.out.println(number);
 	}
 	static void myfunc(int number)
 	{
-		System.out.println("Hello, World");
+		try
+		{
+			myfunc2(number);
+		}
+		catch (Exception e)
+		{
+			System.out.println("error");
+		}
 	}
 	public static void main(String[] args)
 	{
-		myfunc(1);
-		myfunc2(2);
+		myfunc(22);
+		myfunc(34);
 	}
 }
 
