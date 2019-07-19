@@ -15,5 +15,13 @@ class myclass
 	{
 		System.out.println(i);
 	}
+	class nestclass
+	{
+		int y;
+		public void printy()
+		{
+			System.out.println(y);
+		}
+	}
 }
 
