@@ -12,4 +12,4 @@ public class simple extends Frame
   {
     new simple("hello");
   }
-)
+}
